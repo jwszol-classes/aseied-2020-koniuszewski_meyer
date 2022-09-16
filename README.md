@@ -1,7 +1,7 @@
 
-#Gdańsk University of Technology project ASEiED
+# Gdańsk University of Technology project ASEiED
 
-##Contributors
+## Contributors
 - Jakub Koniuszewski
 - Michał Meyer
 
