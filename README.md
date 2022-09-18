@@ -42,7 +42,7 @@ The result image of the detected areas with 6 groups of specific height increase
 <p align="center"><img src="images/gradient_chart.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 200px">
 <br/>
 We have conducted some performance measurements for this task using Amazon EMR using 
-different cluster configurations by executing Jupyter notebook [code](ASEIED_PYSPARK.ipynb) with PySpark kernel.
+different cluster configurations by executing Jupyter notebook code with PySpark kernel.
 The results can bee seen on charts below.
 <br/>
 <p align="center"><img src="images/plot_1.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
@@ -52,7 +52,7 @@ The results can bee seen on charts below.
 The processing time was calculated from the moment of defining the pyspark dataframe with images to the moment
 of merging the elevation tiles into complete map with detected areas.
 The time results were an average from several measurements. 
-The PySpark code was run on Google Colab and the result was about **170 seconds** for tile zoom value 5.
+The PySpark [code](ASEIED_PYSPARK.ipynb) was run on Google Colab and the result was about **170 seconds** for tile zoom value 5.
 
 As for the Python approach that doesn't involve putting images into dataframe,
 we have executed Jupyter notebook [code](ASEIED_PURE_PYTHON.ipynb) with Python 3 kernel and the average time result for calculations for tile zoom 
