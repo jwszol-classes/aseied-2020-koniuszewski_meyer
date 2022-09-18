@@ -37,7 +37,7 @@ We have prepared solution approaches with a Spark 2.4.8, as well as default Pyth
 The result image of the detected areas with 6 groups of specific height increase below:
 <photo>
 <br/>
-<img src="images/gradient.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px">
+<img src="images/gradient_map.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px">
 <br/>
 We have conducted some performance measurements for this task using Amazon EMR using 
 different cluster configurations by executing Jupyter notebook code with PySpark kernel.
