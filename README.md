@@ -43,9 +43,9 @@ We have conducted some performance measurements for this task using Amazon EMR u
 different cluster configurations by executing Jupyter notebook code with PySpark kernel.
 The results can bee seen on charts below.
 <br/>
-<img src="images/plot_1.png" alt="Alt text" align="center" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
-<img src="images/plot_2.png" alt="Alt text" align="center" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
-<img src="images/plot_3.png" alt="Alt text" align="center" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_1.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_2.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_3.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
 
 The processing time was calculated from the moment of defining the pyspark dataframe with images to the moment
 of merging the elevation tiles into complete map with detected areas.
