@@ -68,7 +68,14 @@ Specification for each instance:
 |---------------|:-----:|--------|------------|
 | m5.xlarge     |   4   | 16 GiB | Intel® Xeon® Platinum 8175M  |
 | m5.2xlarge    |   8   | 32 GiB | Intel® Xeon® Platinum 8175M  |
+
 vCPU (virtual CPU) represents a portion or share of a physical CPU that is assigned to a virtual machine (VM).
 
 ## Summary
 
+Good thing that we can point out is that the time results were more satisfactory while using Spark, 
+as there's no problem in adding additional computing power in the form of additional Task nodes to the cluster and using more powerful computing instances,
+which boosts up the processing time as shown on the charts. It's harder to achieve that using pure Python approach.
+EMR monitoring nodes in the cluster and automatically terminating and replacing an instance in case of failure is 
+also very beneficial and proves its reliability. To sum up, the whole environment allows us to easily 
+reconfigure and manage our resources and allows us to perform desired computing tasks more efficiently.
