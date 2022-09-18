@@ -19,7 +19,7 @@ Regarding additional technologies beside EMR (EMR 5.36.0), we have defined softw
 
 ## Terrain data
 From Amazon Simple Storage Service (Amazon S3) we can download a global dataset providing bare-earth terrain heights.
-The data is split to tiles with different zoom values and is available in different formats. We have decided to use the 
+The data is split to tiles with different zoom values and is available in different formats. We are using the 
 **terrarium** format. The data tiles are downloaded using the following endpoint:
 ```https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png``` and contain raw elevation data
 in meters. All values are positive with a 32,768 offset, split into the red, green, and blue channels, 
