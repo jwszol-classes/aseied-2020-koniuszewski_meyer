@@ -43,16 +43,16 @@ We have conducted some performance measurements for this task using Amazon EMR u
 different cluster configurations by executing Jupyter notebook code with PySpark kernel.
 The results can bee seen on charts below.
 <br/>
-<img src="images/plot_1.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
-<img src="images/plot_2.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
-<img src="images/plot_3.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_1.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_2.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
+<p align="center"><img src="images/plot_3.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
 
 The processing time was calculated from the moment of defining the pyspark dataframe with images to the moment
 of merging the elevation tiles into complete map with detected areas.
 The time results were an average from several measurements.
 
 As for the Python approach that doesn't involve putting images into dataframe,
-we have executed Jupyter notebook code with Python 3 kernel and the average time result for calculations for tile zoom value 5 was around **28 seconds**.
+we have executed Jupyter notebook code with Python 3 kernel and the average time result for calculations for tile zoom value 5 with m5.xlarge instance was around **28 seconds**.
 
 Higher zoom values represent increased precision of measurements and more detailed map. 
 When describing Task nodes we can say that they can be used to add power to perform parallel computation tasks on data.
@@ -60,8 +60,10 @@ Only one instance type was allocated for all the nodes in specific cluster confi
 Specification for each instance: 
 
 | Instance Name | vCPUs | RAM    | CPU series |
-|---------------|------|--------|------------|
-| m5.xlarge     | 4    | 16 GiB | Intel® Xeon® Platinum 8175M  |
-| m5.2xlarge    | 8    | 32 GiB | Intel® Xeon® Platinum 8175M  |
+|---------------|:-----:|--------|------------|
+| m5.xlarge     |   4   | 16 GiB | Intel® Xeon® Platinum 8175M  |
+| m5.2xlarge    |   8   | 32 GiB | Intel® Xeon® Platinum 8175M  |
 vCPU (virtual CPU) represents a portion or share of a physical CPU that is assigned to a virtual machine (VM).
+
+## Summary
 
