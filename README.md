@@ -39,7 +39,7 @@ The result image of the detected areas with 6 groups of specific height increase
 <br/>
 <p align="center"><img src="images/gradient_map.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px">
 <br/>
-<p align="center"><img src="images/gradient_chart.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 350px">
+<p align="center"><img src="images/gradient_chart.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 200px">
 <br/>
 We have conducted some performance measurements for this task using Amazon EMR using 
 different cluster configurations by executing Jupyter notebook [code](ASEIED_PYSPARK.ipynb) with PySpark kernel.
@@ -72,4 +72,3 @@ vCPU (virtual CPU) represents a portion or share of a physical CPU that is assig
 
 ## Summary
 
-We can say that thanks 
