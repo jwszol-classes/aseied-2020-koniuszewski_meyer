@@ -49,7 +49,7 @@ The results can bee seen on charts below.
 <p align="center"><img src="images/plot_2.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
 <p align="center"><img src="images/plot_3.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 550px"><br/>
 
-The processing time was calculated from the moment of defining the pyspark dataframe with images to the moment
+The processing time was calculated from the moment of defining the pyspark dataframe with tiles to the moment
 of merging the elevation tiles into complete map with detected areas.
 The time results were an average from several measurements. 
 The PySpark [code](ASEIED_PYSPARK.ipynb) was run on Google Colab and the result was about **170 seconds** for tile zoom value 5.
